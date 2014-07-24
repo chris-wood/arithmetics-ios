@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF334AEF198097C600FFADCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF334AEE198097C600FFADCF /* Foundation.framework */; };
+		CF334AF1198097C600FFADCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF334AF0198097C600FFADCF /* CoreGraphics.framework */; };
+		CF334AF3198097C600FFADCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF334AF2198097C600FFADCF /* UIKit.framework */; };
+		CF334AF9198097C600FFADCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF334AF7198097C600FFADCF /* InfoPlist.strings */; };
+		CF334AFB198097C600FFADCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF334AFA198097C600FFADCF /* main.m */; };
+		CF334AFF198097C600FFADCF /* gdlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF334AFE198097C600FFADCF /* gdlAppDelegate.m */; };
+		CF334B02198097C600FFADCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF334B00198097C600FFADCF /* Main.storyboard */; };
+		CF334B05198097C700FFADCF /* gdlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF334B04198097C700FFADCF /* gdlViewController.m */; };
+		CF334B07198097C700FFADCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF334B06198097C700FFADCF /* Images.xcassets */; };
+		CF334B0E198097C700FFADCF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF334B0D198097C700FFADCF /* XCTest.framework */; };
+		CF334B0F198097C700FFADCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF334AEE198097C600FFADCF /* Foundation.framework */; };
+		CF334B10198097C700FFADCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF334AF2198097C600FFADCF /* UIKit.framework */; };
+		CF334B18198097C700FFADCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF334B16198097C700FFADCF /* InfoPlist.strings */; };
+		CF334B1A198097C700FFADCF /* ArithmeticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF334B19198097C700FFADCF /* ArithmeticsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF334B11198097C700FFADCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF334AE3198097C600FFADCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF334AEA198097C600FFADCF;
+			remoteInfo = Arithmetics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF334AEB198097C600FFADCF /* Arithmetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arithmetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF334AEE198097C600FFADCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF334AF0198097C600FFADCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF334AF2198097C600FFADCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF334AF6198097C600FFADCF /* Arithmetics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arithmetics-Info.plist"; sourceTree = "<group>"; };
+		CF334AF8198097C600FFADCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF334AFA198097C600FFADCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF334AFC198097C600FFADCF /* Arithmetics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Arithmetics-Prefix.pch"; sourceTree = "<group>"; };
+		CF334AFD198097C600FFADCF /* gdlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gdlAppDelegate.h; sourceTree = "<group>"; };
+		CF334AFE198097C600FFADCF /* gdlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gdlAppDelegate.m; sourceTree = "<group>"; };
+		CF334B01198097C600FFADCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF334B03198097C700FFADCF /* gdlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gdlViewController.h; sourceTree = "<group>"; };
+		CF334B04198097C700FFADCF /* gdlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gdlViewController.m; sourceTree = "<group>"; };
+		CF334B06198097C700FFADCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF334B0C198097C700FFADCF /* ArithmeticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArithmeticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF334B0D198097C700FFADCF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF334B15198097C700FFADCF /* ArithmeticsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArithmeticsTests-Info.plist"; sourceTree = "<group>"; };
+		CF334B17198097C700FFADCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF334B19198097C700FFADCF /* ArithmeticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArithmeticsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF334AE8198097C600FFADCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF334AF1198097C600FFADCF /* CoreGraphics.framework in Frameworks */,
+				CF334AF3198097C600FFADCF /* UIKit.framework in Frameworks */,
+				CF334AEF198097C600FFADCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF334B09198097C700FFADCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF334B0E198097C700FFADCF /* XCTest.framework in Frameworks */,
+				CF334B10198097C700FFADCF /* UIKit.framework in Frameworks */,
+				CF334B0F198097C700FFADCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF334AE2198097C600FFADCF = {
+			isa = PBXGroup;
+			children = (
+				CF334AF4198097C600FFADCF /* Arithmetics */,
+				CF334B13198097C700FFADCF /* ArithmeticsTests */,
+				CF334AED198097C600FFADCF /* Frameworks */,
+				CF334AEC198097C600FFADCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF334AEC198097C600FFADCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF334AEB198097C600FFADCF /* Arithmetics.app */,
+				CF334B0C198097C700FFADCF /* ArithmeticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF334AED198097C600FFADCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF334AEE198097C600FFADCF /* Foundation.framework */,
+				CF334AF0198097C600FFADCF /* CoreGraphics.framework */,
+				CF334AF2198097C600FFADCF /* UIKit.framework */,
+				CF334B0D198097C700FFADCF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF334AF4198097C600FFADCF /* Arithmetics */ = {
+			isa = PBXGroup;
+			children = (
+				CF334AFD198097C600FFADCF /* gdlAppDelegate.h */,
+				CF334AFE198097C600FFADCF /* gdlAppDelegate.m */,
+				CF334B00198097C600FFADCF /* Main.storyboard */,
+				CF334B03198097C700FFADCF /* gdlViewController.h */,
+				CF334B04198097C700FFADCF /* gdlViewController.m */,
+				CF334B06198097C700FFADCF /* Images.xcassets */,
+				CF334AF5198097C600FFADCF /* Supporting Files */,
+			);
+			path = Arithmetics;
+			sourceTree = "<group>";
+		};
+		CF334AF5198097C600FFADCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF334AF6198097C600FFADCF /* Arithmetics-Info.plist */,
+				CF334AF7198097C600FFADCF /* InfoPlist.strings */,
+				CF334AFA198097C600FFADCF /* main.m */,
+				CF334AFC198097C600FFADCF /* Arithmetics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF334B13198097C700FFADCF /* ArithmeticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF334B19198097C700FFADCF /* ArithmeticsTests.m */,
+				CF334B14198097C700FFADCF /* Supporting Files */,
+			);
+			path = ArithmeticsTests;
+			sourceTree = "<group>";
+		};
+		CF334B14198097C700FFADCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF334B15198097C700FFADCF /* ArithmeticsTests-Info.plist */,
+				CF334B16198097C700FFADCF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF334AEA198097C600FFADCF /* Arithmetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF334B1D198097C700FFADCF /* Build configuration list for PBXNativeTarget "Arithmetics" */;
+			buildPhases = (
+				CF334AE7198097C600FFADCF /* Sources */,
+				CF334AE8198097C600FFADCF /* Frameworks */,
+				CF334AE9198097C600FFADCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arithmetics;
+			productName = Arithmetics;
+			productReference = CF334AEB198097C600FFADCF /* Arithmetics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF334B0B198097C700FFADCF /* ArithmeticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF334B20198097C700FFADCF /* Build configuration list for PBXNativeTarget "ArithmeticsTests" */;
+			buildPhases = (
+				CF334B08198097C700FFADCF /* Sources */,
+				CF334B09198097C700FFADCF /* Frameworks */,
+				CF334B0A198097C700FFADCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF334B12198097C700FFADCF /* PBXTargetDependency */,
+			);
+			name = ArithmeticsTests;
+			productName = ArithmeticsTests;
+			productReference = CF334B0C198097C700FFADCF /* ArithmeticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF334AE3198097C600FFADCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = gdl;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gotham Digital Labs";
+				TargetAttributes = {
+					CF334B0B198097C700FFADCF = {
+						TestTargetID = CF334AEA198097C600FFADCF;
+					};
+				};
+			};
+			buildConfigurationList = CF334AE6198097C600FFADCF /* Build configuration list for PBXProject "Arithmetics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF334AE2198097C600FFADCF;
+			productRefGroup = CF334AEC198097C600FFADCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF334AEA198097C600FFADCF /* Arithmetics */,
+				CF334B0B198097C700FFADCF /* ArithmeticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF334AE9198097C600FFADCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF334B07198097C700FFADCF /* Images.xcassets in Resources */,
+				CF334AF9198097C600FFADCF /* InfoPlist.strings in Resources */,
+				CF334B02198097C600FFADCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF334B0A198097C700FFADCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF334B18198097C700FFADCF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF334AE7198097C600FFADCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF334B05198097C700FFADCF /* gdlViewController.m in Sources */,
+				CF334AFF198097C600FFADCF /* gdlAppDelegate.m in Sources */,
+				CF334AFB198097C600FFADCF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF334B08198097C700FFADCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF334B1A198097C700FFADCF /* ArithmeticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF334B12198097C700FFADCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF334AEA198097C600FFADCF /* Arithmetics */;
+			targetProxy = CF334B11198097C700FFADCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF334AF7198097C600FFADCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF334AF8198097C600FFADCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF334B00198097C600FFADCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF334B01198097C600FFADCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF334B16198097C700FFADCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF334B17198097C700FFADCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF334B1B198097C700FFADCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF334B1C198097C700FFADCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF334B1E198097C700FFADCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arithmetics/Arithmetics-Prefix.pch";
+				INFOPLIST_FILE = "Arithmetics/Arithmetics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF334B1F198097C700FFADCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arithmetics/Arithmetics-Prefix.pch";
+				INFOPLIST_FILE = "Arithmetics/Arithmetics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF334B21198097C700FFADCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Arithmetics.app/Arithmetics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arithmetics/Arithmetics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ArithmeticsTests/ArithmeticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF334B22198097C700FFADCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Arithmetics.app/Arithmetics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Arithmetics/Arithmetics-Prefix.pch";
+				INFOPLIST_FILE = "ArithmeticsTests/ArithmeticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF334AE6198097C600FFADCF /* Build configuration list for PBXProject "Arithmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF334B1B198097C700FFADCF /* Debug */,
+				CF334B1C198097C700FFADCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF334B1D198097C700FFADCF /* Build configuration list for PBXNativeTarget "Arithmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF334B1E198097C700FFADCF /* Debug */,
+				CF334B1F198097C700FFADCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF334B20198097C700FFADCF /* Build configuration list for PBXNativeTarget "ArithmeticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF334B21198097C700FFADCF /* Debug */,
+				CF334B22198097C700FFADCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF334AE3198097C600FFADCF /* Project object */;
+}
